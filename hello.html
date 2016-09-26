@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" media="all" href="style.css" />
+		<script src="db.js"></script>
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"> </script>
+	</head>
+	<body>
+		<h1 id="root">hello, world!</h1>
+		<div>
+			<fieldset>
+				<label>Name</label>
+				<input type="text" id="namefield" placeholder="enter name" />
+			</fieldset>
+			<fieldset>
+				<label>Subject</label>
+				<input type="text" id="subjectfield" placeholder="enter subject" />
+			</fieldset>
+			<fieldset>
+				<label></label>
+				<button onclick="addName()">Add name</button>
+				<button onclick="getAllNames()">Get AllNames</button>
+			</fieldset>
+			<table>
+				<thead>
+					<tr>
+						<th>itemId</th>
+						<th>itemName</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+
+			</table>
+		</div>
+	</body>
+</html>
